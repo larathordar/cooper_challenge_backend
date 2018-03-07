@@ -1,4 +1,4 @@
-class Api::V0::PingController < ApplicationController
+class Api::V0::PingsController < ApplicationController
   def index
     render json: { message: 'Ping' }
   end
